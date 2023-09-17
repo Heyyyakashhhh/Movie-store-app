@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(28, 27, 27);
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+.nav .form {
+  position: relative;
+}
+.nav .btn {
+  position: absolute;
+  right: 8px;
+  border: none;
+}
+.nav .search-area {
+  display: flex;
+  flex-direction: column;
+}
+.nav .nav-item a:hover {
+  color: red;
+}
+
+.mainDetails {
+  display: flex;
+  justify-content: center;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 200px;
+  border: 2px solid red;
+  background: white;
+  color: black;
+  margin: 20px 40px 0px 0px;
+  padding: 2px;
+}
+.card h1 {
+  font-size: 2rem;
+}
+.card img {
+  width: 100%;
+  padding: 0;
+}
+.card button {
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  background: white;
+}
+
+.list {
+  display: flex;
+  width: 100%;
+  border: 2px solid red;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.list a {
+  border: none;
+  outline: none;
+}
+.list img {
+  width: 70px;
+}
+
+.fav-cards {
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 786px) {
+  .mainDetails {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+@media (max-width: 570px) {
+  .mainDetails {
+    flex-direction: column;
+    text-align: center;
+  }
+}/*# sourceMappingURL=style.css.map */

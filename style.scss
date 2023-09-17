@@ -1,0 +1,147 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(28, 27, 27);
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+//Navbar Area-----
+.nav {
+
+  .form {
+    position: relative;
+
+
+
+  }
+
+  .btn {
+    position: absolute;
+    right: 8px;
+    border: none;
+
+
+  }
+
+  .search-area {
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .nav-item a:hover {
+    color: red;
+  }
+
+}
+
+//navbar end
+
+
+
+//More HTML movie info design
+.mainDetails {
+  display: flex;
+  justify-content: center;
+}
+
+//More HTML movie info design end
+
+
+
+//Cards Area Desgins
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 200px;
+  border: 2px solid red;
+  background: white;
+  color: black;
+  margin: 20px 40px 0px 0px;
+
+  padding: 2px;
+
+  h1 {
+    font-size: 2rem;
+  }
+
+
+  img {
+    width: 100%;
+    padding: 0;
+  }
+
+  button {
+    border: none;
+    outline: none;
+    border-radius: 20px;
+
+    background: white;
+  }
+}
+
+//card area end
+
+
+
+.list {
+  display: flex;
+  width: 100%;
+  border: 2px solid red;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+
+
+  a {
+    border: none;
+    outline: none;
+  }
+
+
+  img {
+    width: 70px;
+  }
+
+}
+
+
+//fav movie card desgin
+
+.fav-cards {
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+}
+
+
+
+//Responsive code for Medium device
+@media (max-width: 786px) {
+  .mainDetails {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+//Responsive code for small device
+@media (max-width: 570px) {
+  .mainDetails {
+    flex-direction: column;
+    text-align: center;
+  }
+}
